@@ -17,7 +17,7 @@ public class conxionDB {
         Connection cn = null;
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-             cn =DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","prueva2","viguerjhok");
+                            cn =DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","PRUEBA2","viguerjhok");
         } catch (Exception e) {  e.printStackTrace();}
        return cn;
     }
