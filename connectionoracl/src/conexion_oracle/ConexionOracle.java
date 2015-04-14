@@ -21,6 +21,7 @@ public class ConexionOracle {
        return cn;
     }
     public static void main(String[] args) {
+         ConexionOracle co= new ConexionOracle();
 //        if(conexionDB.conectar()== null){
 //            System.out.println("lA CONEXION FUE UN ÉXITO");
 //        }
@@ -28,7 +29,10 @@ public class ConexionOracle {
 //            System.out.println(" la conexion fue un exito");
 //        }
 //    }
-//   
+//   metodo  que se inserta  un registro en la bgase de datos 
+       
+        co.insert();
+        
 }
     public void insert(){
     Statement  st = null;
